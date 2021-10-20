@@ -24,6 +24,8 @@ export class InscriptionComponent implements OnInit {
 		category: new FormControl('')
 	});
 
+	
+
   constructor(){}
 
   ngOnInit(): void {
@@ -39,7 +41,8 @@ export class InscriptionComponent implements OnInit {
       if($('#last_name').val() === ""){
 
       }
-    })
+    });
+
   }
 
 	showPassword() {
